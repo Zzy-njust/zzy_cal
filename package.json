@@ -1,11 +1,19 @@
 {
-  "name": "calculate",
+  "name": "zzy_calculator",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "author": "zzy <Ike@fanruan.com>",
+  "license": "MIT",
+  "description": "实现简单的整数四则运算，包括负数",
+  "homepage": "https://github.com/Zzy-njust/zzy_cal.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zzy-njust/zzy_cal.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }
