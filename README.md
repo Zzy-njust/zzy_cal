@@ -7,13 +7,13 @@
 ## Install
 
 ```
-npm install zzy_calculator --save
+npm install zzy-calculator --save
 ```
 
 ## How to use
 
 ```js
-const CalculateFormula = require("zzy_calculator")
+const CalculateFormula = require("zzy-calculator")
 ```
 
 ```js
