@@ -129,8 +129,8 @@ function evaluateRPN(tokens,data) {
 
 module.exports = calculateFormula;
 
-// 测试示例
-const expression = "a+(b+(c*a)/b) - (d-(c+e)/d)"
-const variables = {a : -6, b : 5, c: 3, d: 4, e: 9}
+// // 测试示例
+// const expression = "a+(b+(c*a)/b) - (d-(c+e)/d)"
+// const variables = {a : -6, b : 5, c: 3, d: 4, e: 9}
 
-console.log(calculateFormula(expression,variables));
+// console.log(calculateFormula(expression,variables));
