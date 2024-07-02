@@ -6,7 +6,7 @@ function calculateFormula(formula, data){
 
     // 将表达式转换成逆波兰表达式
     const rpnExpression = toRPN(formula);
-    console.log(rpnExpression)
+    // console.log(rpnExpression)
     // 计算逆波兰表达式结果
     return evaluateRPN(rpnExpression,data);
 }
@@ -32,7 +32,7 @@ function isValidFormula(formula, data){
         throw new Error('公式包含无效字符');
     }
     // 是否以操作符开头结尾
-    if (/^\*|\/|\+|-/.test(formula) || /\*|\/|\+|-$/.test(formula)) {
+    if (/^[*\/+\-]/.test(formula) || /[*|\/+-]$/.test(formula)) {
         throw new Error('公式不能以操作符开头或结尾');
     }
     // 检查括号是否正确配对
